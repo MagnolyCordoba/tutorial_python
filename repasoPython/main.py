@@ -69,4 +69,21 @@ print(valor1 > valor2)  #mayor que
 print(valor1 < valor2) #menor que
 print(valor1 >= valor2) #mayor igual que
 print( valor1 <= valor2)#menor igual que
-print(valor1 != valor2) # no igual 
+print(valor1 != valor2) # no igual
+
+# funciones
+"""
+ las funciones son un bloque de codigo que solo 
+ se ejecutan cuando se llaman.
+ """
+
+def mi_funcion():
+    print("Feliz dia")
+
+
+mi_funcion() # invocar la funcion
+
+def mensaje(nombre, apellido):
+    print("feliz dia : " + nombre +""+apellido)
+
+mensaje("magnoly" , "Cordoba")
